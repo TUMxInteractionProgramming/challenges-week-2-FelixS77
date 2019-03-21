@@ -79,6 +79,8 @@ ul li a{
 #tab-bar{
     /*overall background white */
     background-color: white;
+    justify-content: space-around;
+    display: flex;
 }
 
 #tab-bar button{
@@ -87,7 +89,6 @@ ul li a{
     border: none;
     font-size: 13px;
     height: 72px;
-    width: 33%;
     padding: 16px;    
 }
 
