@@ -1,0 +1,154 @@
+/* #2 #colorful #palette is:
+          * Background: #F5F5F5 (GREY 100)
+          * Primary Text: black
+
+          * Primary color: #3F51B5 (INDIGO)
+          * Primary color_text : white
+          * Accent color: #CDDC39 (LIME)
+          * Accent color_text: black
+*/
+
+/* __________________________________ Global __________________________________ */
+* {
+    /* #2 #font #faces */
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    /* #2 #colorful #background */
+    background-color: #F5F5F5;
+}
+
+.uppercase{
+    /*class to transform text to uppercases*/
+    text-transform: uppercase;
+}
+
+/* __________________________________ App bar __________________________________ */
+h1 {
+    /* #2 #colourful #app-bar */
+    background-color: #3F51B5;
+    color: white;
+}
+
+h1 a{
+    /* link properties: color and remove underscore */
+    text-decoration: none;
+    color: white;
+}
+
+/* __________________________________ Channels list __________________________________ */
+ul{
+    /* overall background white*/
+    background-color: white;
+    /* removing bullets */
+    list-style-type: none;
+}
+
+ul .uneven{
+    /* background of uneven elements slightly grey*/
+    background-color: #F5F5F5;
+}
+
+ul li{
+    /* sizing of list elements */
+    padding: 16px;
+    font-size: 16px;
+    height: 48px;
+    box-sizing: border-box;
+}
+
+ul li.selected{
+    /* highlighting selected channel */
+    border-left: 4px solid #3F51B5; 
+} 
+
+ul li img{
+    /* positioning the star symbol in the middle */
+    vertical-align: middle;
+}
+
+ul li a{
+    /* link properties: color and remove underscore */
+    text-decoration: none;
+}
+
+/* __________________________________ Tab bar __________________________________ */
+#tab-bar{
+    /*overall background white */
+    background-color: white;
+}
+
+#tab-bar button{
+    /* size and color of buttons*/
+    background-color: white;
+    border: none;
+    font-size: 13px;
+    height: 72px;
+    width: 33%;
+    padding: 16px;    
+}
+
+#tab-bar button img{
+    /* positioning of button images */
+    display: block;
+    margin: 4px auto;
+}
+#tab-bar button.selected{
+    /* highlighting of selected button */
+    color: #3F51B5;
+    border-bottom: 4px solid #3F51B5; 
+}
+
+
+/* __________________________________ Messages __________________________________ */
+
+.message{
+    /* message sizing */
+    width:80%;
+    margin-bottom: 8px;
+}
+
+.message h3{
+    /* Metadata font-size */
+    font-size: medium;
+}
+
+.message p{
+    /* sizing background of actual message */
+    background-color: white;
+    padding: 16px;
+}
+
+.message em {
+    /* #2 #font #remaining overrides the default italic appearance of em elements*/
+    font-size: larger;
+    font-style: normal;
+}
+
+.message a{
+    /* links now have black color */
+    color: black;
+}
+
+.message button{
+    /* color and positioning of buttons */
+    background-color: #CDDC39;
+    color: black;
+    text-align: center;
+}
+
+.own-messages{
+    /* horizontal alignment of own messages */
+    margin-left: 17.5%;
+}
+
+.other-messages{
+    /* horizontal alignment of others messages */
+    margin-left: 2.5%;
+}
+
+
+
