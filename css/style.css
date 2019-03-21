@@ -89,7 +89,8 @@ ul li a{
     border: none;
     font-size: 13px;
     height: 72px;
-    padding: 16px;    
+    padding: 16px;  
+    width: 33%;  
 }
 
 #tab-bar button img{
